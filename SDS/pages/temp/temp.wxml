@@ -1,0 +1,12 @@
+
+<view style="flex-direction: row;" class="container2">
+<image src="/images/hot.png" mode="aspectFit"></image>
+</view>
+<view style="flex-direction: row;"class="containe3">
+        <view class="in-title">室内温度：{{temp}}℃</view>
+        <view class="in-title">室内湿度：{{humidity}}%</view>
+</view>
+<view style="flex-direction: column;" class="container3">
+    <view class="in-title"> （室内的适宜温度为22℃到26℃左右)</view>
+    <view class="in-title"> （室内的适宜湿度为40%到70%左右）</view>
+</view>

@@ -1,0 +1,14 @@
+<image class="bg" src="/images/background5.jpeg"></image>
+<image wx:if="{{isColect}}" src='/images/lighton.png' bindtap="change" mode="aspectFit"></image>
+     <image wx:else src='/images/lightoff.png' mode="aspectFit"></image>
+<view class = "container">
+    <view class="text">
+        (点击灯泡即可打开/关闭电灯)
+    </view>
+    <view wx:if="{{status}}"class="text">
+        当前状态：开启
+    </view>
+    <view wx:else class = "text">
+        当前状态：关闭
+    </view>
+</view>

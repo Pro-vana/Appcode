@@ -1,0 +1,49 @@
+{
+    "tabBar": {
+        "color": "#00000",
+        "selectedColor": "#cccc00",
+        "backgroundColor": "#E0F3F7",
+        "borderStyle": "black",
+        "list": [
+            {
+                "selectedIconPath": "images/index.png",
+                "iconPath": "images/index.png",
+                "pagePath": "pages/index/index",
+                "text": "首页"
+            },
+            {
+                "selectedIconPath": "images/light.png",
+                "iconPath": "images/light.png",
+                "pagePath": "pages/light/light",
+                "text": "智能灯控"
+            },
+            {
+                "selectedIconPath": "images/temp.png",
+                "iconPath": "images/temp.png",
+                "pagePath": "pages/temp/temp",
+                "text": "温度湿度"
+            },
+            {
+                "selectedIconPath": "images/monitor.png",
+                "iconPath": "images/monitor.png",
+                "pagePath": "pages/monitor/monitor",
+                "text": "监控"
+            }
+        ]
+    },
+    "pages": [
+        "pages/monitor/monitor",
+        "pages/light/light",
+        "pages/index/index",
+        "pages/temp/temp"
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#E0F3F7",
+        "navigationBarTitleText": "智能宿舍系统",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
+    },
+    "debug": true,
+    "sitemapLocation": "sitemap.json"
+}

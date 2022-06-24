@@ -1,0 +1,5 @@
+<image class="bg" src="/images/background4.jpeg"></image>
+<view class="view-group" style="display: flex;flex-direction: column-reverse;">   
+    <view class="{{upChecked?'upwake':'up'}}">宿舍内有人</view>
+    <view class="{{downChecked?'downwake':'down'}}">宿舍内无人</view>  
+</view>
